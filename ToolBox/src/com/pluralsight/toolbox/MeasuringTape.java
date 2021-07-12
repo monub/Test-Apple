@@ -11,8 +11,9 @@ public class MeasuringTape {
     public double getDistance(Tree tree, IFruit fruit) {
 
         Random random = new Random();
-        return random.nextDouble() * 10;
+        return random.nextDouble() * fruit.getRollMultiplier();
 
     }
+
 
 }

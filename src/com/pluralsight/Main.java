@@ -16,7 +16,6 @@ class Main {
         System.out.println("STARTING FRUIT ON TREE: " + tree.getFruitOnTree());
 
         DropAllTheFruit(tree);
-
         System.out.println("ENDING FRUIT ON TREE: " + tree.getFruitOnTree());
 
     }
